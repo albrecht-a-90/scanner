@@ -1,0 +1,2 @@
+// the exe's icon: Explorer, the taskbar and the window title take it from here
+1 ICON "app.ico"

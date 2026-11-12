@@ -1,0 +1,82 @@
+# Scanner language file.
+#
+# One "key = text" per line. Lines that start with # are comments.
+# {0}, {1}, ... are filled in by the program; \n starts a new line.
+# To add a language, copy this file next to it, name it after the language
+# (for example de.txt), set "language" to the name shown in the menu and
+# translate the texts after the "=" signs. A missing key falls back to English.
+
+language = English
+
+# size units
+unit.bytes = Bytes
+unit.kb = KB
+unit.mb = MB
+unit.gb = GB
+unit.tb = TB
+
+# Summary
+summary = Summary
+summary.tip = All drives in one chart; drives not scanned yet are scanned first
+summary.of = Summary of {0}
+
+# buttons
+button.settings = Settings
+button.up = Parent folder
+button.back = Back
+button.rescan = Rescan folder
+button.cancel = Cancel
+
+# right-click menu
+menu.zoom = Zoom
+menu.rescan = Rescan
+menu.open = Open
+menu.recycle = Recycle
+
+# settings menu
+settings.theme = Theme
+theme.system = System
+theme.light = Light
+theme.dark = Dark
+settings.depth = Chart depth
+depth.min = Minimal
+depth.all = All levels
+settings.order = Order
+order.name = Folders first, by name
+order.size = Largest first
+settings.free = Show free space
+settings.panel = Folder panel
+settings.language = Language
+
+# scanning
+scan.running = Scanning...
+scan.drive = Scanning {0}...
+scan.progress = Scanning...  {0} files, {1}
+scan.done = {0} s  ·  {1} files
+scan.done.errors = {0} s  ·  {1} files  ·  {2} inaccessible
+scan.time = Scanned in {0} s
+scan.time.errors = Scanned in {0} s; {1} folders could not be read
+scan.cancelled = Scan cancelled
+
+# drives and the bottom line
+drive.tip = {0}  ·  {1} free of {2}
+info.free = {0}   ·   {1} free on {2}
+
+# chart
+chart.hidden = Not scanned (system / inaccessible)
+chart.free = Free space
+chart.hidden.on = Not scanned on {0}
+chart.free.on = Free on {0}
+chart.of.drive = {0}% of the drive
+chart.of.all = {0}% of all drives
+chart.files = {0} files
+chart.file = file
+chart.total = Total
+chart.used = {0} used
+chart.used.only = used
+
+# folder panel: the last row of a very long folder
+tree.more = … and {0} more items ({1})
+
+# deleting
+recycle.ask = Move to Recycle Bin?\n\n{0}

@@ -1,0 +1,82 @@
+# Sprachdatei für Scanner.
+#
+# Eine Zeile "Schlüssel = Text". Zeilen, die mit # beginnen, sind Kommentare.
+# {0}, {1}, ... setzt das Programm ein; \n beginnt eine neue Zeile.
+# Für eine neue Sprache diese Datei daneben kopieren, nach der Sprache benennen
+# (zum Beispiel fr.txt), bei "language" den Namen für das Menü eintragen und die
+# Texte nach dem "=" übersetzen. Fehlt ein Schlüssel, wird der englische Text verwendet.
+
+language = Deutsch
+
+# Größeneinheiten
+unit.bytes = Bytes
+unit.kb = KB
+unit.mb = MB
+unit.gb = GB
+unit.tb = TB
+
+# Übersicht
+summary = Übersicht
+summary.tip = Alle Laufwerke in einem Diagramm; noch nicht gescannte Laufwerke werden zuerst gescannt
+summary.of = Übersicht: {0}
+
+# Schaltflächen
+button.settings = Einstellungen
+button.up = Übergeordneter Ordner
+button.back = Zurück
+button.rescan = Ordner neu scannen
+button.cancel = Abbrechen
+
+# Kontextmenü
+menu.zoom = Öffnen
+menu.rescan = Neu scannen
+menu.open = Im Explorer öffnen
+menu.recycle = In den Papierkorb
+
+# Einstellungsmenü
+settings.theme = Design
+theme.system = Wie im System
+theme.light = Hell
+theme.dark = Dunkel
+settings.depth = Diagrammtiefe
+depth.min = Minimal
+depth.all = Alle Ebenen
+settings.order = Reihenfolge
+order.name = Ordner zuerst, nach Name
+order.size = Größte zuerst
+settings.free = Freien Speicher anzeigen
+settings.panel = Ordnerleiste
+settings.language = Sprache
+
+# Scannen
+scan.running = Scannen...
+scan.drive = Scanne {0}...
+scan.progress = Scannen...  {0} Dateien, {1}
+scan.done = {0} s  ·  {1} Dateien
+scan.done.errors = {0} s  ·  {1} Dateien  ·  {2} nicht lesbar
+scan.time = Gescannt in {0} s
+scan.time.errors = Gescannt in {0} s; {1} Ordner konnten nicht gelesen werden
+scan.cancelled = Scan abgebrochen
+
+# Laufwerke und untere Zeile
+drive.tip = {0}  ·  {1} frei von {2}
+info.free = {0}   ·   {1} frei auf {2}
+
+# Diagramm
+chart.hidden = Nicht gescannt (System / nicht lesbar)
+chart.free = Freier Speicher
+chart.hidden.on = Nicht gescannt auf {0}
+chart.free.on = Frei auf {0}
+chart.of.drive = {0}% des Laufwerks
+chart.of.all = {0}% aller Laufwerke
+chart.files = {0} Dateien
+chart.file = Datei
+chart.total = Gesamt
+chart.used = {0} belegt
+chart.used.only = belegt
+
+# Ordnerleiste: letzte Zeile eines sehr großen Ordners
+tree.more = … und {0} weitere Elemente ({1})
+
+# Löschen
+recycle.ask = In den Papierkorb verschieben?\n\n{0}
